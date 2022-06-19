@@ -108,6 +108,16 @@ a:active {
 	}
 }
 @media (min-width: 0px) {
+	.blockinv2 {
+		display: none !important;
+	}
+}
+@media (min-width: 1500px) {
+	.blockinv2 {
+		display: inline !important;
+	}
+}
+@media (min-width: 0px) {
 	.news_text {
 		font-size: 2rem !important;
 	}
