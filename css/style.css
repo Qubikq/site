@@ -144,6 +144,11 @@ a:active {
 }
 @media (min-width: 1200px) {
 	.cardsize {
+		height: 20rem !important;
+	}
+}
+@media (min-width: 1500px) {
+	.cardsize {
 		height: 25rem !important;
 	}
 }
@@ -185,6 +190,16 @@ a:active {
 @media (min-width: 1200px) {
 	.news2 {
 		display: flex !important;
+	}
+}
+@media (min-width: 0px) {
+	.newssize {
+		width: 95% !important;
+	}
+}
+@media (min-width: 1200px) {
+	.newssize {
+		width: 30% !important;
 	}
 }
 .links_nav {
