@@ -137,6 +137,36 @@ a:active {
 		font-size: 1.5rem !important;
 	}
 }
+@media (min-width: 0px) {
+	.cardsize {
+		height: 15rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.cardsize {
+		height: 25rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.text_adobe {
+		padding-bottom: 1rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.text_adobe {
+		padding-bottom: 0rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.tab1 {
+		padding-top: 2rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.tab1 {
+		padding-top: 3rem !important;
+	}
+}
 .links_nav {
 	margin-right: 4rem;
 }
@@ -201,4 +231,18 @@ a:active {
 .news_banner {
 	padding-top: 3rem;
 	background-color: #FFA300;
+}
+.text-news {
+	top: auto !important;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.news-title {
+	font-family: "Oswald";
+	font-size: 1.4rem;
+	padding-bottom: 14px;
+	border-bottom: 2px solid #fff;
+}
+.news-text {
+	font-family: "Oswald";
+	font-size: 1rem;
 }
