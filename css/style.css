@@ -167,6 +167,26 @@ a:active {
 		padding-top: 3rem !important;
 	}
 }
+@media (min-width: 0px) {
+	.tab3 {
+		padding-top: 1.6rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.tab3 {
+		padding-top: 4rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.news2 {
+		display: none !important;
+	}
+}
+@media (min-width: 1200px) {
+	.news2 {
+		display: flex !important;
+	}
+}
 .links_nav {
 	margin-right: 4rem;
 }
@@ -210,9 +230,9 @@ a:active {
 	margin-bottom: 0.5rem;
 }
 .navbar {
-  font-family: "Oswald";
-  letter-spacing: 4px;
-  font-size: 14px;
+  	font-family: "Oswald";
+  	letter-spacing: 4px;
+ 	font-size: 14px;
 }
 .dpr {
  	 text-align: center;
@@ -220,6 +240,9 @@ a:active {
  }
  .tab {
  	padding-top: 4rem;
+ }
+ .tab4 {
+ 	padding-top: 2rem;
  }
 .news_text {
 	font-family: "Oswald";
@@ -245,4 +268,9 @@ a:active {
 .news-text {
 	font-family: "Oswald";
 	font-size: 1rem;
+}
+.btn-more-news {
+	font-family: "Oswald" !important;
+	font-size: 1.4rem !important;
+	background-color: #FFA300 !important;
 }
