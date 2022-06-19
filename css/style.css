@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Oswald"),
+       /* Если не получилось, загрузит woff2 */
+       url("../fonts/Oswald.ttf") format("truetype");
+}
+@media (min-width: 1200px) {
+	.names {
+	padding-left: 5rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	 #qaz {
+ 	--bs-gutter-x:0;
+	}
+}
+@media (min-width: 0px) {
+	.bigger {
+		font-size: 1.4rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 540px) {
+	.bigger {
+		font-size: 2rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 1200px) {
+	.bigger {
+		font-size: 3rem !important;
+		text-align: left !important;
+	}
+}
+@media (min-width: 1400px) {
+	.bigger {
+		font-size: 3.6rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.don {
+		font-size: 1.4rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 540px) {
+	.don {
+		font-size: 2rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 1200px) {
+	.don {
+		font-size: 3rem !important;
+		text-align: left !important;
+	}
+}
+@media (min-width: 1400px) {
+	.don {
+		font-size: 3.6rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.textst {
+		text-align: center !important;
+	}
+}
+@media (min-width: 1200px) {
+	.textst {
+		text-align: left !important;
+	}
+}
+@media (min-width: 0px) {
+	.blockinv {
+		display: none !important;
+	}
+}
+@media (min-width: 540px) {
+	.blockinv {
+		display: inline !important;
+	}
+}
+a {
+	margin-right: 4rem;
+}
+.mamont {
+	text-align: right;
+}
+.textst {
+	font-family: "Oswald";
+	font-weight: lighter;
+	font-size: 20px;
+	color:  #000;
+}
+.bigger {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	color:  #000;
+}
+.don {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 2.82rem;
+	text-transform: uppercase;
+	color:  #000;
+}
+.navbarexpandtop {
+	margin-top: 1rem;
+}
+.navbarexpandbottom {
+	margin-bottom: 0.5rem;
+}
+.navbar {
+  font-family: "Oswald";
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+.dpr {
+ 	 text-align: center;
+ 	 padding-left: 0px;
+ }
