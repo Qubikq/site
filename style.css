@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Oswald"),
+       /* Если не получилось, загрузит woff2 */
+       url("../fonts/Oswald.ttf") format("truetype");
+}
+img { 
+	pointer-events: none; 
+}
+img::selection {
+    background: transparent;
+}
+img + span {
+    display: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+	.names {
+	padding-left: 5rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	 #qaz {
+ 	--bs-gutter-x:0;
+	}
+}
+@media (min-width: 0px) {
+	.bigger {
+		font-size: 1.4rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 540px) {
+	.bigger {
+		font-size: 2rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 1200px) {
+	.bigger {
+		font-size: 3rem !important;
+		text-align: left !important;
+	}
+}
+@media (min-width: 1400px) {
+	.bigger {
+		font-size: 3.6rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.don {
+		font-size: 1.4rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 540px) {
+	.don {
+		font-size: 2rem !important;
+		text-align: center !important;
+	}
+}
+@media (min-width: 1200px) {
+	.don {
+		font-size: 3rem !important;
+		text-align: left !important;
+	}
+}
+@media (min-width: 1400px) {
+	.don {
+		font-size: 3.6rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.textst {
+		text-align: center !important;
+	}
+}
+@media (min-width: 1200px) {
+	.textst {
+		text-align: left !important;
+	}
+}
+@media (min-width: 0px) {
+	.blockinv {
+		display: none !important;
+	}
+}
+@media (min-width: 1200px) {
+	.blockinv {
+		display: inline !important;
+	}
+}
+@media (min-width: 0px) {
+	.news_text {
+		font-size: 2rem !important;
+	}
+}
+@media (min-width: 540px) {
+	.news_text {
+		font-size: 2rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.news_text {
+		font-size: 3.6rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.links_news {
+		font-size: 1rem !important;
+	}
+}
+@media (min-width: 540px) {
+	.links_news {
+		font-size: 1.2rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.links_news {
+		font-size: 1.5rem !important;
+	}
+}
+.links_nav {
+	margin-right: 4rem;
+}
+.links_news {
+	font-family: "Oswald";
+	font-weight: lighter;
+	font-size: 1.5rem;
+	color:  #000;
+}
+.links_news:hover {
+	color: #fff !important;
+}
+.mamont {
+	text-align: right;
+}
+.textst {
+	font-family: "Oswald";
+	font-weight: lighter;
+	font-size: 20px;
+	color:  #000;
+}
+.bigger {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	color:  #000;
+	margin: 0;
+}
+.don {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 2.82rem;
+	text-transform: uppercase;
+	color:  #000;
+}
+.navbarexpandtop {
+	margin-top: 1rem;
+}
+.navbarexpandbottom {
+	margin-bottom: 0.5rem;
+}
+.navbar {
+  font-family: "Oswald";
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+.dpr {
+ 	 text-align: center;
+ 	 padding-left: 0px;
+ }
+ .tab {
+ 	padding-top: 4rem;
+ }
+.news_text {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	color:  #000;
+}
+.news_banner {
+	padding-top: 3rem;
+	background-color: #FFA300;
+}
