@@ -446,6 +446,8 @@ a:active {
 .btn-more-news {
 	font-family: "Oswald" !important;
 	background-color: #FFA300 !important;
+	border-color: #FFA300 !important;
+	color: #000 !important;
 }
 .ico_size {
 	height: 10% !important;
