@@ -356,12 +356,12 @@ a:active {
 	}
 }
 @media (min-width: 0px) {
-	.news_text {
+	.news_text2 {
 	font-size: 0.8rem !important;
 	}
 }
 @media (min-width: 1200px) {
-	.news_text {
+	.news_text2 {
 	font-size: 1rem !important;
 	}
 }
@@ -481,6 +481,14 @@ a:active {
 .tags_names {
 	font-family: "Oswald" !important;
 }
-.news_text {
+.news_text2 {
 	font-family: "Oswald" !important;
+}
+.page_news_number {
+	background-color: #FFA300 !important;
+	border-color: #FFA300 !important;
+	color: #000 !important;
+}
+.page_news_number2 {
+	color: #000 !important;
 }
