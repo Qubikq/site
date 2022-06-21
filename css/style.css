@@ -1,3 +1,22 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 @font-face {
   font-family: "Oswald";
   font-style: normal;
@@ -55,13 +74,13 @@ a:active {
 }
 @media (min-width: 1200px) {
 	.bigger {
-		font-size: 3rem !important;
+		font-size: 2.6rem !important;
 		text-align: left !important;
 	}
 }
 @media (min-width: 1400px) {
 	.bigger {
-		font-size: 3.6rem !important;
+		font-size: 2.8rem !important;
 	}
 }
 @media (min-width: 0px) {
@@ -78,13 +97,13 @@ a:active {
 }
 @media (min-width: 1200px) {
 	.don {
-		font-size: 3rem !important;
+		font-size: 2.6rem !important;
 		text-align: left !important;
 	}
 }
 @media (min-width: 1400px) {
 	.don {
-		font-size: 3.6rem !important;
+		font-size: 2.8rem !important;
 	}
 }
 @media (min-width: 0px) {
@@ -129,7 +148,7 @@ a:active {
 }
 @media (min-width: 1200px) {
 	.news_text {
-		font-size: 3.6rem !important;
+		font-size: 2.8rem !important;
 	}
 }
 @media (min-width: 0px) {
@@ -139,12 +158,12 @@ a:active {
 }
 @media (min-width: 540px) {
 	.links_news {
-		font-size: 1.2rem !important;
+		font-size: 1rem !important;
 	}
 }
 @media (min-width: 1200px) {
 	.links_news {
-		font-size: 1.5rem !important;
+		font-size: 1.2rem !important;
 	}
 }
 @media (min-width: 0px) {
@@ -266,6 +285,36 @@ a:active {
 	padding-top: 0rem !important;
 	}
 }
+@media (min-width: 0px) {
+	.tab3 {
+	display: none !important;
+	}
+}
+@media (min-width: 1200px) {
+	.tab3 {
+	display: block !important;
+	}
+}
+@media (min-width: 0px) {
+	.tab {
+	padding-top: 2rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.tab {
+	padding-top: 3rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.btn-more-news {
+	font-size: 1.2rem !important;
+	}
+}
+@media (min-width: 1200px) {
+	.btn-more-news {
+	font-size: 1.4rem !important;
+	}
+}
 .links_nav {
 	margin-right: 4rem;
 }
@@ -290,7 +339,6 @@ a:active {
 .bigger {
 	font-family: "Oswald";
 	font-weight: 700;
-	font-size: 3.6rem;
 	text-transform: uppercase;
 	color:  #000;
 	margin: 0;
@@ -316,9 +364,6 @@ a:active {
 .dpr {
  	 text-align: center;
  	 padding-left: 0px;
- }
- .tab {
- 	padding-top: 4rem;
  }
  .tab4 {
  	padding-top: 2rem;
@@ -350,7 +395,6 @@ a:active {
 }
 .btn-more-news {
 	font-family: "Oswald" !important;
-	font-size: 1.4rem !important;
 	background-color: #FFA300 !important;
 }
 .ico_size {
