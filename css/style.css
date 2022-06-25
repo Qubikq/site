@@ -356,13 +356,28 @@ a:active {
 	}
 }
 @media (min-width: 0px) {
-	.news_text2 {
+	.news_text228 {
 	font-size: 0.8rem !important;
 	}
 }
 @media (min-width: 1200px) {
-	.news_text2 {
+	.news_text228 {
 	font-size: 1rem !important;
+	}
+}
+@media (min-width: 0px) {
+	.drkm_logo {
+	width: 100% !important;
+	}
+}
+@media (min-width: 568px) {
+	.drkm_logo {
+	width: 70% !important;
+	}
+}
+@media (min-width: 1200px) {
+	.drkm_logo {
+	width: 50% !important;
 	}
 }
 .links_nav {
@@ -383,14 +398,13 @@ a:active {
 .textst {
 	font-family: "Oswald";
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 1.25rem;
 	color:  #000;
 }
 .bigger {
 	font-family: "Oswald";
 	font-weight: 700;
 	text-transform: uppercase;
-	color:  #000;
 	margin: 0;
 }
 .don {
@@ -398,7 +412,6 @@ a:active {
 	font-weight: 700;
 	font-size: 2.82rem;
 	text-transform: uppercase;
-	color:  #000;
 }
 .navbarexpandtop {
 	margin-top: 1rem;
@@ -470,7 +483,8 @@ a:active {
 }
 .news_name {
 	font-family: "Oswald" !important;
-	font-size: 2rem;
+	font-size: 2.8rem;
+	font-weight: 700;
 }
 .img_news {
 	width: 100% !important;
@@ -485,6 +499,7 @@ a:active {
 }
 .news_text2 {
 	font-family: "Oswald" !important;
+	font-size: 1.25rem !important;
 }
 .page_news_number {
 	background-color: #FFA300 !important;
@@ -493,4 +508,52 @@ a:active {
 }
 .page_news_number2 {
 	color: #000 !important;
+}
+.our_news {
+	font-family: "Oswald" !important;
+	font-size: 2.8rem;
+	padding-top: 1rem;
+	font-weight: 700;
+}
+.pages_text {
+	font-family: "Oswald" !important;
+}
+.text_about_museum {
+	font-family: "Oswald" !important;
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+.text_about_museum2 {
+	font-family: "Oswald" !important;
+	font-size: 1.25rem;
+}
+.text_for_visitors {
+	font-family: "Oswald" !important;
+	font-size: 1.25rem !important;
+}
+.zag1 {
+	font-size: 2.8rem !important;
+	font-weight: 700;
+}
+.zag2 {
+	font-size: 2.4rem !important;
+	font-weight: 700;
+}
+.text_visitors_menu {
+	font-size: 1.25rem !important;
+}
+.list_persons {
+	font-size: 1.8rem !important;
+	background-color: #FFA300 !important;
+	border-color: #FFA300 !important;
+	color: #212529 !important;
+}
+.list_persons:hover {
+	font-size: 1.8rem !important;
+	background-color: #D38600 !important;
+	border-color: #D38600 !important;
+	color: #fff !important;
+}
+.text_category {
+	font-size: 1.25rem !important;
 }
