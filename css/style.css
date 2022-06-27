@@ -394,12 +394,17 @@ a:active {
 }
 .links_nav {
 	margin-right: 4rem;
+	font-weight: 600 !important;
+}
+.dark_theme {
+	font-weight: 600 !important;
 }
 .links_news {
 	font-family: "Oswald";
 	font-weight: lighter;
 	font-size: 1.5rem;
 	color:  #000;
+	transition: 0.3s !important;
 }
 .links_news:hover {
 	color: #fff !important;
@@ -473,6 +478,13 @@ a:active {
 	background-color: #FFA300 !important;
 	border-color: #FFA300 !important;
 	color: #000 !important;
+	transition: 0.3s !important;
+}
+.btn-more-news:hover {
+	font-family: "Oswald" !important;
+	background-color: #D38600 !important;
+	border-color: #D38600 !important;
+	color: #fff !important;
 }
 .ico_size {
 	height: 10% !important;
@@ -489,6 +501,7 @@ a:active {
 }
 .links_fotter {
 	color: #212529;
+	transition: 0.3s !important;
 }
 .links_fotter:hover {
 	color: #fff;
