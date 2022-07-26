@@ -457,7 +457,7 @@ a:active {
 }
 .news_banner {
 	padding-top: 3rem;
-	background-color: #FFA300;
+	background-color: #A6C418;
 }
 .text-news {
 	top: auto !important;
@@ -475,15 +475,15 @@ a:active {
 }
 .btn-more-news {
 	font-family: "Oswald" !important;
-	background-color: #FFA300 !important;
-	border-color: #FFA300 !important;
+	background-color: #A6C418 !important;
+	border-color: #A6C418 !important;
 	color: #000 !important;
 	transition: 0.3s !important;
 }
 .btn-more-news:hover {
 	font-family: "Oswald" !important;
-	background-color: #D38600 !important;
-	border-color: #D38600 !important;
+	background-color: #89B904 !important;
+	border-color: #89B904 !important;
 	color: #fff !important;
 }
 .ico_size {
@@ -494,7 +494,7 @@ a:active {
 }
 .fotter {
 	font-family: "Oswald";
-	background-color: #FFA300 !important;
+	background-color: #A6C418 !important;
 }
 .tab_fotter {
 	padding-top: 1rem !important;
@@ -527,8 +527,8 @@ a:active {
 	font-size: 1.25rem !important;
 }
 .page_news_number {
-	background-color: #FFA300 !important;
-	border-color: #FFA300 !important;
+	background-color: #A6C418 !important;
+	border-color: #A6C418 !important;
 	color: #000 !important;
 }
 .page_news_number2 {
@@ -571,14 +571,14 @@ a:active {
 }
 .list_persons {
 	font-size: 1.8rem !important;
-	background-color: #FFA300 !important;
-	border-color: #FFA300 !important;
+	background-color: #A6C418 !important;
+	border-color: #A6C418 !important;
 	color: #212529 !important;
 }
 .list_persons:hover {
 	font-size: 1.8rem !important;
-	background-color: #D38600 !important;
-	border-color: #D38600 !important;
+	background-color: #89B904 !important;
+	border-color: #89B904 !important;
 	color: #fff !important;
 }
 .text_category {
