@@ -11,7 +11,7 @@
   padding-top: 1rem;
 }
 .main-content {
-  background-image: url(/img/background.png);
+  background-image: url(../img/background.png);
   font-family: "HeaadFont";
 }
 a {
