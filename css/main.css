@@ -12,6 +12,7 @@
 }
 .main-content {
   background-image: url(../img/background.png);
+  background-position: bottom;
   font-family: "HeaadFont";
 }
 a {
@@ -27,5 +28,10 @@ a {
   color: red;
 }
 .tab2 {
-  padding-top: 40.1rem;
+  padding-top: 44.14rem;
 }
+.form-size {
+  width: 25rem;
+  margin-right: 4rem;
+}
+
