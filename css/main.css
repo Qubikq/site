@@ -2,6 +2,10 @@
   font-family: HeaadFont;
   src: url("../fonts/HeadlinerFont.otf") format("opentype");
 }
+body {
+  background-color: #292929;
+  font-family: "HeaadFont";
+}
 .tab {
   padding-top: 2rem;
 }
@@ -17,6 +21,7 @@
 }
 a {
   text-decoration: none;
+  color: #f3f3f3;
 }
 .header-links {
   text-decoration-color: #ffffff;
@@ -34,4 +39,88 @@ a {
   width: 25rem;
   margin-right: 4rem;
 }
-
+.first_menu {
+  font-family: "HeaadFont";
+  font-size: 24px;
+  color: #f3f3f3;
+  padding-top: 2rem;
+}
+a:hover {
+  color: #ACACAC;
+}
+.first_header {
+  margin-left: 1rem;
+}
+.hr-line {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px solid #f3f3f3;
+  opacity: 1;
+}
+.hr-line2 {
+  margin-bottom: 2rem;
+  margin-top: 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px solid #f3f3f3;
+  opacity: 1;
+}
+.title-page {
+  color: #f3f3f3;
+  font-size: 36px;
+  padding-top: 1rem;
+}
+.card-crh {
+  font-size: 24px;
+}
+.text-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+.text-bottom-s {
+  font-size: 18px;
+}
+.text-bottom-se {
+  font-size: 18px;
+  padding-left: 18rem;
+}
+.text-bottom-st {
+  font-size: 18px;
+  align-items: flex-end;
+  padding-top: 7rem;
+}
+.text-title {
+  font-size: 36px;
+}
+.tab3 {
+  padding-top: 2rem;
+}
+.tab4 {
+  padding-top: 3rem;
+}
+.text-footer {
+  font-size: 18px;
+  color: #f3f3f3;
+}
+.card-chronics {
+  height: 12rem;
+}
+.card-artefacts {
+  height: 10rem;
+}
+.razdeli {
+  color: #f3f3f3;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 20px;
+}
+.filters {
+  box-shadow: inset -1px 0 0 #f3f3f3;
+}
+.filters-raz {
+  font-size: 20px;
+}
