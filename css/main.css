@@ -124,3 +124,19 @@ a:hover {
 .filters-raz {
   font-size: 20px;
 }
+.contact-text {
+  color: #f3f3f3;
+}
+.contact-zag {
+  font-size: 64px;
+}
+.contact-opis {
+  font-size: 28px;
+}
+.contact-button {
+  font-size: 18px;
+}
+.contact-right {
+  color: #f3f3f3;
+  font-size: 28px;
+}
