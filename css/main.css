@@ -148,3 +148,30 @@ a:hover {
   color: #f3f3f3;
   font-size: 22px;
 }
+.button-artefact {
+  color: #f3f3f3;
+  font-size: 20px;
+}
+.button-artefact:hover {
+  color: #ACACAC;
+  border-color: unset !important;
+}
+.button-artefact:active {
+  color: #ACACAC !important;
+}
+.button-artefact:focus {
+  color: #ACACAC;
+  border-color: unset !important;
+}
+.button-razdel {
+  font-size: 20px;
+}
+.text-shablon {
+  color: #f3f3f3;
+  font-size: 20px;
+  margin: 0 !important;
+}
+.info {
+  color: #f3f3f3;
+  font-size: 32px;
+}
