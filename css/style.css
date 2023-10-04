@@ -1,586 +1,174 @@
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
+* {
+    padding: 0;
+    margin: 0;
 }
+root {
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-@font-face {
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 400;
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("Oswald"),
-       /* Если не получилось, загрузит woff2 */
-       url("../fonts/Oswald.ttf") format("truetype");
-}
-img { 
-	pointer-events: none; 
-}
-img::selection {
-    background: transparent;
-}
-img + span {
-    display: none;
-}
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-@media (min-width: 1200px) {
-	.names {
-	padding-left: 5rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	 #qaz {
- 	--bs-gutter-x:0;
-	}
-}
-@media (min-width: 0px) {
-	.bigger {
-		font-size: 1.4rem !important;
-		text-align: center !important;
-	}
-}
-@media (min-width: 540px) {
-	.bigger {
-		font-size: 2rem !important;
-		text-align: center !important;
-	}
-}
-@media (min-width: 1200px) {
-	.bigger {
-		font-size: 2.6rem !important;
-		text-align: left !important;
-	}
-}
-@media (min-width: 1400px) {
-	.bigger {
-		font-size: 2.8rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.don {
-		font-size: 1.4rem !important;
-		text-align: center !important;
-	}
-}
-@media (min-width: 540px) {
-	.don {
-		font-size: 2rem !important;
-		text-align: center !important;
-	}
-}
-@media (min-width: 1200px) {
-	.don {
-		font-size: 2.6rem !important;
-		text-align: left !important;
-	}
-}
-@media (min-width: 1400px) {
-	.don {
-		font-size: 2.8rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.textst {
-		text-align: center !important;
-	}
-}
-@media (min-width: 1200px) {
-	.textst {
-		text-align: left !important;
-	}
-}
-@media (min-width: 0px) {
-	.blockinv {
-		display: none !important;
-	}
-}
-@media (min-width: 1200px) {
-	.blockinv {
-		display: inline !important;
-	}
-}
-@media (min-width: 0px) {
-	.blockinv2 {
-		display: none !important;
-	}
-}
-@media (min-width: 1500px) {
-	.blockinv2 {
-		display: inline !important;
-	}
-}
-@media (min-width: 0px) {
-	.news_text {
-		font-size: 2rem !important;
-	}
-}
-@media (min-width: 540px) {
-	.news_text {
-		font-size: 2rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.news_text {
-		font-size: 2.8rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.links_news {
-		font-size: 1rem !important;
-	}
-}
-@media (min-width: 540px) {
-	.links_news {
-		font-size: 1rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.links_news {
-		font-size: 1.2rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.cardsize {
-		height: 15rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.cardsize {
-		height: 20rem !important;
-	}
-}
-@media (min-width: 1500px) {
-	.cardsize {
-		height: 25rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.text_adobe {
-		padding-bottom: 1rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.text_adobe {
-		padding-bottom: 0rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.tab1 {
-		padding-top: 2rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.tab1 {
-		padding-top: 3rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.tab3 {
-		padding-top: 1.6rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.tab3 {
-		padding-top: 4rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.news2 {
-		display: none !important;
-	}
-}
-@media (min-width: 1200px) {
-	.news2 {
-		display: flex !important;
-	}
-}
-@media (min-width: 0px) {
-	.newssize {
-		width: 95% !important;
-	}
-}
-@media (min-width: 500px) {
-	.newssize {
-		width: 75% !important;
-	}
-}
-@media (min-width: 800px) {
-	.newssize {
-		width: 45% !important;
-	}
-}
-@media (min-width: 1200px) {
-	.newssize {
-		width: 30% !important;
-	}
-}
-@media (min-width: 0px) {
-	.fotter_link {
-	align-content: center !important;
-	text-align: center !important;
-	padding-left: 2rem !important;
-	}
-@media (min-width: 1200px) {
-	.fotter_link {
-	text-align: center !important;
-	padding-left: 2rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.fotter_social {
-	text-align: center !important;
-	}
-}
-@media (min-width: 1200px) {
-	.fotter_social {
-	text-align: left !important;
-	}
-}
-@media (min-width: 0px) {
-	.fotter_content {
-	display: none !important;
-	}
-}
-@media (min-width: 1200px) {
-	.fotter_content {
-	display: inline !important;
-	}
-}
-@media (min-width: 0px) {
-	.text_contacts {
-	text-align: center !important;
-	padding-top: 1rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.text_contacts {
-	text-align: right !important;
-	padding-top: 0rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.tab3 {
-	display: none !important;
-	}
-}
-@media (min-width: 1200px) {
-	.tab3 {
-	display: block !important;
-	}
-}
-@media (min-width: 0px) {
-	.tab {
-	padding-top: 2rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.tab {
-	padding-top: 3rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.btn-more-news {
-	font-size: 1.2rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.btn-more-news {
-	font-size: 1.4rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.tags_names {
-	display: none !important;
-	}
-}
-@media (min-width: 1200px) {
-	.tags_names {
-	display: inline !important;
-	}
-}
-@media (min-width: 0px) {
-	.news_name {
-	text-align: center !important;
-	}
-}
-@media (min-width: 1200px) {
-	.news_name {
-	text-align: left !important;
-	}
-}
-@media (min-width: 0px) {
-	.tags_under {
-	text-align: center !important;
-	}
-}
-@media (min-width: 1200px) {
-	.tags_under {
-	text-align: left !important;
-	}
-}
-@media (min-width: 0px) {
-	.carousel_size {
-	max-height: 230px !important;
-	}
-}
-@media (min-width: 1200px) {
-	.carousel_size {
-	max-height: 600px !important;
-	}
-}
-@media (min-width: 0px) {
-	.news_text228 {
-	font-size: 0.8rem !important;
-	}
-}
-@media (min-width: 1200px) {
-	.news_text228 {
-	font-size: 1rem !important;
-	}
-}
-@media (min-width: 0px) {
-	.drkm_logo {
-	width: 100% !important;
-	}
-}
-@media (min-width: 568px) {
-	.drkm_logo {
-	width: 70% !important;
-	}
-}
-@media (min-width: 1200px) {
-	.drkm_logo {
-	width: 50% !important;
-	}
-}
-@media (min-width: 0px) {
-	.google_map {
-	width: 300px !important;
-	height: 150px !important;
-	}
-}
-@media (min-width: 1200px) {
-	.google_map {
-	width: 640px !important;
-	height: 400px !important;
-	}
-}
-.links_nav {
-	margin-right: 4rem;
-	font-weight: 600 !important;
-}
-.dark_theme {
-	font-weight: 600 !important;
-}
-.links_news {
-	font-family: "Oswald";
-	font-weight: lighter;
-	font-size: 1.5rem;
-	color:  #000;
-	transition: 0.3s !important;
-}
-.links_news:hover {
-	color: #fff !important;
-}
-.mamont {
-	text-align: right;
-}
-.textst {
-	font-family: "Oswald";
-	font-weight: lighter;
-	font-size: 1.25rem;
-	color:  #000;
-}
-.bigger {
-	font-family: "Oswald";
-	font-weight: 700;
-	text-transform: uppercase;
-	margin: 0;
-}
-.don {
-	font-family: "Oswald";
-	font-weight: 700;
-	font-size: 2.82rem;
-	text-transform: uppercase;
-}
-.navbarexpandtop {
-	margin-top: 1rem;
-}
-.navbarexpandbottom {
-	margin-bottom: 0.5rem;
-}
-.navbar {
-  	font-family: "Oswald";
-  	letter-spacing: 4px;
- 	font-size: 14px;
-}
-.dpr {
- 	 text-align: center;
- 	 padding-left: 0px;
- }
- .tab4 {
- 	padding-top: 2rem;
- }
-.news_text {
-	font-family: "Oswald";
-	font-weight: 700;
-	font-size: 3.6rem;
-	text-transform: uppercase;
-	color:  #000;
-}
-.news_banner {
-	padding-top: 3rem;
-	background-color: #A6C418;
-}
-.text-news {
-	top: auto !important;
-	background-color: rgba(0, 0, 0, 0.6);
-}
-.news-title {
-	font-family: "Oswald";
-	font-size: 1.4rem;
-	padding-bottom: 14px;
-	border-bottom: 2px solid #fff;
-}
-.news-text {
-	font-family: "Oswald";
-	font-size: 1rem;
-}
-.btn-more-news {
-	font-family: "Oswald" !important;
-	background-color: #A6C418 !important;
-	border-color: #A6C418 !important;
-	color: #000 !important;
-	transition: 0.3s !important;
-}
-.btn-more-news:hover {
-	font-family: "Oswald" !important;
-	background-color: #89B904 !important;
-	border-color: #89B904 !important;
-	color: #fff !important;
-}
-.ico_size {
-	height: 10% !important;
-}
-.ico_href {
-	height: 55px !important;
-}
-.fotter {
-	font-family: "Oswald";
-	background-color: #A6C418 !important;
-}
-.tab_fotter {
-	padding-top: 1rem !important;
-}
-.links_fotter {
-	color: #212529;
-	transition: 0.3s !important;
-}
-.links_fotter:hover {
-	color: #fff;
-}
-.news_name {
-	font-family: "Oswald" !important;
-	font-size: 2.8rem;
-	font-weight: 700;
-}
-.img_news {
-	width: 100% !important;
-    max-height: 100% !important;
-    object-fit: fill !important;	
-}
-.tags {
-	font-family: "Oswald" !important;
-}
-.tags_names {
-	font-family: "Oswald" !important;
-}
-.news_text2 {
-	font-family: "Oswald" !important;
-	font-size: 1.25rem !important;
-}
-.page_news_number {
-	background-color: #A6C418 !important;
-	border-color: #A6C418 !important;
-	color: #000 !important;
-}
-.page_news_number2 {
-	color: #000 !important;
-}
-.our_news {
-	font-family: "Oswald" !important;
-	font-size: 2.8rem;
-	padding-top: 1rem;
-	font-weight: 700;
-}
-.pages_text {
-	font-family: "Oswald" !important;
-}
-.text_about_museum {
-	font-family: "Oswald" !important;
-	font-size: 2.8rem;
-	font-weight: 700;
-}
-.text_about_museum2 {
-	font-family: "Oswald" !important;
-	font-size: 1.25rem;
-}
-.text_for_visitors {
-	font-family: "Oswald" !important;
-	font-size: 1.25rem !important;
-}
-.zag1 {
-	font-family: "Oswald" !important;
-	font-size: 2.8rem !important;
-	font-weight: 700;
-}
-.zag2 {
-	font-family: "Oswald" !important;
-	font-size: 2.4rem !important;
-	font-weight: 700;
-}
-.text_visitors_menu {
-	font-size: 1.25rem !important;
-}
-.list_persons {
-	font-size: 1.8rem !important;
-	background-color: #A6C418 !important;
-	border-color: #A6C418 !important;
-	color: #212529 !important;
-}
-.list_persons:hover {
-	font-size: 1.8rem !important;
-	background-color: #89B904 !important;
-	border-color: #89B904 !important;
-	color: #fff !important;
-}
-.text_category {
-	font-size: 1.25rem !important;
+html {
+    height: 100%;
+}
+body {
+    background-color: #EEE1D9 !important;
+    height: 100% !important;
+}
+a {
+    display: contents;
+    text-decoration: none;
+    color: unset;
+}
+.container-fluid {
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: clip !important;
+    height: 100% !important;
+}
+.row {
+    height: 100% !important;
+    width: 100%;
+    overflow-y: clip !important;
+    flex-wrap: wrap !important;
+    align-content: space-between !important;
+    justify-content: center;
+    align-items: center;
+}
+.div-height {
+    min-height: 15% !important;
+}
+.blobs {
+    position: relative;
+}
+.blob_1 {
+    position: relative;
+    padding-right: 2rem;
+    transform: scale(12,12);
+    max-height: 100px;
+    z-index: 0;
+}
+.blob1_1 {
+    position: relative;
+    padding-left: -1.5rem;
+    padding-bottom: 2rem;
+    transform: scale(26,18);
+    max-height: 100px;
+    z-index: 0;
+}
+.blob2_1 {
+    position: relative;
+    transform: scale(18,18);
+    padding-top: 5rem;
+    padding-left: 2rem;
+    z-index: 0;
+}
+.blob3_1 {
+    position: relative;
+    transform: scale(14,24);
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    z-index: 0;
+}
+.flowers_svg {
+    position: relative;
+    z-index: 1;
+    height: 70%;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-start;
+}
+.flowers_svg1 {
+    position: relative;
+    z-index: 1;
+    height: 70%;
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-end;
+}
+.flowers {
+    position: absolute;
+    width: calc(100% + 6.7rem);
+    z-index: 1;
+    bottom: -29%;
+    left: -13.5%;
+}
+.flowers1 {
+    position: absolute;
+    width: calc(100% + 6.7rem);
+    z-index: 1;
+    top: -29%;
+    right: -13.5%;
+}
+.logoBlock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 70%;
+}
+.logo {
+    height: 145rem;
+}
+.ico-block {
+    display: flex;
+    justify-content: space-around;
+}
+.ico {
+    display: flex;
+    position: relative;
+    max-height: 5rem;
+    z-index: 1;
+}
+.ico:hover {
+    filter: brightness(70%);
+}
+@media screen and (min-width: 320px) {
+    .logo {
+        position: absolute !important;
+        height: 20rem !important;
+    }
+    .flowers {
+        width: calc(100% + 12.7rem) !important;
+        bottom: -25% !important;
+        left: -34.5% !important;
+    }
+    .flowers1 {
+        width: calc(100% + 12.7rem) !important;
+        top: -25% !important;
+        right: -34.5% !important;
+    }
+}
+@media screen and (min-width: 576px) {
+    .logo {
+        position: absolute !important;
+        height: 30rem !important;
+    }
+    .flowers {
+        width: calc(100% + 12.7rem) !important;
+        bottom: -25% !important;
+        left: -24.5% !important;
+    }
+    .flowers1 {
+        width: calc(100% + 12.7rem) !important;
+        top: -25% !important;
+        right: -24.5% !important;
+    }
+}
+@media screen and (min-width: 768px) {
+    .logo {
+        position: absolute !important;
+        height: 30rem !important;
+    }
+    .flowers {
+        width: calc(100% + 12.7rem) !important;
+        bottom: -25% !important;
+        left: -23.5% !important;
+    }
+    .flowers1 {
+        width: calc(100% + 12.7rem) !important;
+        top: -25% !important;
+        right: -23.5% !important;
+    }
 }
