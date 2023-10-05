@@ -139,6 +139,33 @@ a {
         top: -25% !important;
         right: -34.5% !important;
     }
+    .blob_1 {
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-top: 0rem !important;
+        padding-right: 0.7rem !important;
+        transform: scale(24,24) !important;
+    }
+    .blob1_1 {
+        transform: scale(3,3) !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-left: 0.07rem !important;
+        padding-bottom: 0.6rem !important;
+    }
+    .blob2_1 {
+        transform: scale(54,54) !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-top: 0.2rem !important;
+    }
+    .blob3_1 {
+        transform: scale(32,84) !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-left: 0.04rem !important;
+        padding-bottom: 0.15rem !important;
+    }
 }
 @media screen and (min-width: 576px) {
     .logo {
@@ -170,5 +197,128 @@ a {
         width: calc(100% + 12.7rem) !important;
         top: -25% !important;
         right: -23.5% !important;
+    }
+    .blob_1 {
+        padding-right: 2rem !important;
+        transform: scale(12,12) !important;
+
+    }
+    .blob1_1 {
+        padding-left: 2.5rem !important;
+        padding-bottom: 2rem !important;
+        transform: scale(26,18) !important;
+
+    }
+    .blob2_1 {
+        transform: scale(18,18) !important;
+        padding-top: 1rem !important;
+        padding-left: 0 !important;
+
+    }
+    .blob3_1 {
+        transform: scale(14,24) !important;
+        padding-top: 1rem !important;
+        padding-left: 0 !important;
+
+    }
+}
+@media screen and (min-width: 1000px) {
+    .blob_1 {
+        padding-right: 2rem !important;
+        transform: scale(12,12) !important;
+
+    }
+    .blob1_1 {
+        padding-left: -1.5rem !important;
+        padding-bottom: 2rem !important;
+        transform: scale(26,18) !important;
+
+    }
+    .blob2_1 {
+        transform: scale(18,18) !important;
+        padding-top: 5rem !important;
+        padding-left: 2rem !important;
+
+    }
+    .blob3_1 {
+        transform: scale(14,24) !important;
+        padding-top: 2rem !important;
+        padding-left: 2.5rem !important;
+
+    }
+}
+@media screen and (min-width: 1400px) {
+    .blob_1 {
+        padding-right: 2rem !important;
+        transform: scale(12,12) !important;
+
+    }
+    .blob1_1 {
+        padding-left: -0.5rem !important;
+        padding-bottom: 1rem !important;
+        transform: scale(26,18) !important;
+
+    }
+    .blob2_1 {
+        transform: scale(18,18) !important;
+        padding-top: 3rem !important;
+        padding-right: 1rem !important;
+
+    }
+    .blob3_1 {
+        transform: scale(14,24) !important;
+        padding-top: 2rem !important;
+        padding-left: 1.5rem !important;
+
+    }
+}
+@media screen and (min-width: 1900px) {
+    .blob_1 {
+        padding-right: 2rem !important;
+        transform: scale(12,12) !important;
+
+    }
+    .blob1_1 {
+        padding-left: 2.5rem !important;
+        padding-bottom: 2rem !important;
+        transform: scale(26,18) !important;
+
+    }
+    .blob2_1 {
+        transform: scale(18,18) !important;
+        padding-top: 3rem !important;
+        padding-right: 1rem !important;
+
+    }
+    .blob3_1 {
+        transform: scale(14,24) !important;
+        padding-top: 2rem !important;
+        padding-left: 2.5rem !important;
+
+    }
+}
+@media screen and (min-width: 2500px) {
+    .blob_1 {
+        padding-right: 2rem !important;
+        transform: scale(12,12) !important;
+
+    }
+    .blob1_1 {
+        padding-left: 0.5rem !important;
+        padding-bottom: 2rem !important;
+        transform: scale(26,18) !important;
+
+    }
+    .blob2_1 {
+        transform: scale(18,18) !important;
+        padding-top: 3rem !important;
+        padding-right: 3rem !important;
+
+    }
+    .blob3_1 {
+        transform: scale(14,24) !important;
+        padding-top: 2rem !important;
+        padding-left: 4.5rem !important;
+
     }
 }
