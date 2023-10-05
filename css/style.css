@@ -113,13 +113,14 @@ a {
 }
 .ico-block {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around !important;
 }
 .ico {
     display: flex;
     position: relative;
     max-height: 5rem;
     z-index: 1;
+    justify-content: center;
 }
 .ico:hover {
     filter: brightness(70%);
