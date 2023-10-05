@@ -124,7 +124,7 @@ a {
 .ico:hover {
     filter: brightness(70%);
 }
-@media screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
     .logo {
         position: absolute !important;
         height: 20rem !important;
@@ -167,7 +167,7 @@ a {
         padding-bottom: 0.15rem !important;
     }
 }
-@media screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     .logo {
         position: absolute !important;
         height: 30rem !important;
@@ -183,7 +183,7 @@ a {
         right: -24.5% !important;
     }
 }
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .logo {
         position: absolute !important;
         height: 30rem !important;
@@ -221,8 +221,14 @@ a {
         padding-left: 0 !important;
 
     }
+    .ico {
+        max-height: 5rem !important;
+    }
+    .ico-block1 {
+        min-height: 6rem !important;
+    }
 }
-@media screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
     .blob_1 {
         padding-right: 2rem !important;
         transform: scale(12,12) !important;
@@ -246,8 +252,14 @@ a {
         padding-left: 2.5rem !important;
 
     }
+    .ico {
+        max-height: 5rem !important;
+    }
+    .ico-block1 {
+        min-height: 10rem !important;
+    }
 }
-@media screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
     .blob_1 {
         padding-right: 2rem !important;
         transform: scale(12,12) !important;
@@ -272,7 +284,7 @@ a {
 
     }
 }
-@media screen and (min-width: 1900px) {
+@media only screen and (min-width: 1900px) {
     .blob_1 {
         padding-right: 2rem !important;
         transform: scale(12,12) !important;
@@ -297,7 +309,7 @@ a {
 
     }
 }
-@media screen and (min-width: 2500px) {
+@media only screen and (min-width: 2500px) {
     .blob_1 {
         padding-right: 2rem !important;
         transform: scale(12,12) !important;
